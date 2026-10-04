@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Ambient Wall Privacy Policy</title>
+  
+  <link rel="stylesheet" href="" />
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#222}table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{border:1px solid #ccc;padding:.4rem;vertical-align:top}th{background:#f3f3f3}h1{font-size:1.8rem}</style></head>
+<body>
+
+<h1 id="ambient-wall-privacy-policy">Ambient Wall Privacy Policy</h1>
+<p><em>Effective date: October 4, 2026</em> <em>Developer: Toussaint Campbell ("we", "us") · Contact: <a href="mailto:featherfluffllc@gmail.com">featherfluffllc@gmail.com</a></em></p>
+<h2 id="the-short-version">The short version</h2>
+<ul>
+<li><strong>No accounts, no ads, no analytics, no tracking.</strong> Ambient Wall has no sign-up and includes no advertising, analytics or tracking SDKs. We don't sell or share your data with data brokers, and we don't ask to track you across other apps.</li>
+<li><strong>We don't run a database of your data.</strong> Your layouts and settings sync through <strong>your own private iCloud database</strong> (Apple CloudKit). We, the developer, can't read it.</li>
+<li><strong>Your iPhone mic is never recorded.</strong> If you turn on Room Sound, the iPhone turns sound into a few loudness numbers while the app is open and sends only those numbers to your Apple TV on your home Wi-Fi. Audio is never recorded, stored or uploaded.</li>
+<li><strong>Health data stays on your home network.</strong> Activity rings and steps go from your iPhone straight to your paired Apple TV over your local Wi-Fi, encrypted. They never go to iCloud or to us.</li>
+<li><strong>Location is approximate and optional.</strong> If you allow it, the app reads your location once and rounds it to about 1 km to suggest nearby transit stops.</li>
+</ul>
+<h2 id="what-ambient-wall-uses-and-where-it-goes">What Ambient Wall uses, and where it goes</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>What's used</th>
+<th>Where it goes</th>
+<th>Kept by us?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Layouts and settings</strong> (tiles, themes, colors, to-dos, timers, notes, tile options)</td>
+<td>What you set up in the app</td>
+<td>Your <strong>private iCloud database</strong> (CloudKit), so your iPhone and Apple TVs stay in sync</td>
+<td>No. Apple stores it in your iCloud account under Apple's privacy policy. We have no access</td>
+</tr>
+<tr class="even">
+<td><strong>Notes and "Add to Ambient Wall"</strong> (the share sheet)</td>
+<td>Text, links or one image you choose to share</td>
+<td>Your private iCloud database, then shown on your TV</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Location: nearby transit</strong> (optional)</td>
+<td>Your iPhone's location, <strong>read once</strong> when you ask, then <strong>rounded to 2 decimal places (about 1 km)</strong>. No street address is stored</td>
+<td>The rounded point is saved with your layout in your private iCloud. To find nearby bus stops, the rounded point is sent to MTA Bus Time (directly, or through our transit relay, below)</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Places you type in</strong> (Commute, Map, Weather)</td>
+<td>Addresses or place names you enter, and their map coordinates</td>
+<td>Apple Maps (finding the place, travel times) and Apple WeatherKit (forecasts) get the coordinates to answer each request. The places are saved in your private iCloud</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Room Sound</strong> (optional, iPhone microphone)</td>
+<td>Live microphone input, only while you've turned Room Sound on and the app is open</td>
+<td>Turned into loudness and pitch-band numbers <strong>on the iPhone</strong>. Only those numbers go to your paired Apple TV over your local network. <strong>Audio is never recorded, stored or sent anywhere</strong></td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Activity</strong> (optional, Apple Health)</td>
+<td>Today's Activity rings and step count, <strong>read-only</strong></td>
+<td>iPhone → your paired Apple TV over your <strong>local Wi-Fi</strong>, encrypted. <strong>Never iCloud, never our servers.</strong> Never used for advertising or sold</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Calendar</strong> (optional)</td>
+<td>Upcoming event times; event <strong>titles only if you turn titles on</strong></td>
+<td>Your private iCloud database → your Apple TV</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Home</strong> (optional, HomeKit)</td>
+<td>The scenes and accessories you pick, and their on/off states</td>
+<td>Stays within Apple's Home system; the picks sync through your private iCloud</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Now Playing</strong> (optional, Apple Music)</td>
+<td>The track playing on your Apple TV; play/pause/skip</td>
+<td>Stays on the Apple TV, through Apple's Music framework</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>MTA Bus Time key</strong> (optional)</td>
+<td>A free key you enter</td>
+<td>Kept in the iPhone's Keychain and synced to your TV in an encrypted field of your private iCloud</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Pairing iPhone and Apple TV</strong></td>
+<td>Device names and a random pairing ID</td>
+<td>Your local network only (Bonjour)</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Purchases</strong></td>
+<td>Your in-app purchase or subscription</td>
+<td>Handled entirely by Apple. We get no payment details</td>
+<td>Apple sends us standard, non-identifying sales reports</td>
+</tr>
+</tbody>
+</table>
+<h2 id="services-that-answer-the-apps-requests">Services that answer the app's requests</h2>
+<p>To show live information, your Apple TV or iPhone contacts these services directly. Like any website, they receive your device's <strong>IP address</strong> and the request itself, for example which feed or which map area. The app sends <strong>no name, email, advertising ID or account ID</strong> to them. Their own privacy policies apply.</p>
+<ul>
+<li><strong>Apple:</strong> iCloud/CloudKit, WeatherKit, Maps, Music, HomeKit, HealthKit, StoreKit.</li>
+<li><strong>News feeds</strong> you choose in Headlines (each publisher's RSS/Atom feed).</li>
+<li><strong>Transit:</strong> MTA (subway feeds and Bus Time) and the Port Authority of NY &amp; NJ (PATH times).</li>
+<li><strong>NOAA / National Weather Service:</strong> radar images on the Map tile.</li>
+<li><strong>Our transit relay</strong> (if enabled): a small server we run on Cloudflare that fetches public transit feeds and passes them to the app, as the MTA's and NJ Transit's terms require. It receives your IP address and the stop or area you asked about. It does not store request logs or build profiles.</li>
+</ul>
+<h2 id="what-we-dont-do">What we don't do</h2>
+<ul>
+<li>No advertising or ad identifiers (no App Tracking Transparency prompt, because we don't track).</li>
+<li>No analytics, crash-reporting or marketing SDKs.</li>
+<li>No selling or renting of data, and no sharing with data brokers.</li>
+<li>No storing of your health data in iCloud, and no use of it for advertising.</li>
+</ul>
+<h2 id="your-choices">Your choices</h2>
+<ul>
+<li><strong>Permissions:</strong> Location, Microphone, Health, Calendar, Home, Apple Music and Local Network are each asked for only when you use the feature. You can turn any of them off in <strong>Settings › Privacy &amp; Security</strong> (or <strong>Settings › Health</strong> for Health data) at any time.</li>
+<li><strong>Delete your synced data:</strong> on the iPhone, open <strong>Settings › [your name] › iCloud › Manage Storage › Ambient Wall</strong> and delete its data. Deleting the app removes what's stored on that device.</li>
+<li><strong>Unpair a TV:</strong> remove it in the app's Activity / pairing settings.</li>
+</ul>
+<h2 id="children">Children</h2>
+<p>Ambient Wall is not directed at children under 13 and doesn't knowingly collect personal information from anyone.</p>
+<h2 id="security">Security</h2>
+<p>Sync uses Apple's encrypted iCloud. iPhone-to-TV traffic on your network (Activity, Room Sound numbers) is encrypted (TLS) and works only with devices you've paired.</p>
+<h2 id="changes">Changes</h2>
+<p>If this policy changes, we'll update the effective date above, and we'll describe meaningful changes in the app's release notes.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions or requests: <a href="mailto:featherfluffllc@gmail.com">featherfluffllc@gmail.com</a>.</p>
+</body>
+</html>
