@@ -11,13 +11,12 @@
 <body>
 
 <h1 id="ambient-wall-privacy-policy">Ambient Wall Privacy Policy</h1>
-<p><em>Effective date: October 4, 2026</em> <em>Developer: Toussaint Campbell ("we", "us") · Contact: <a href="mailto:featherfluffllc@gmail.com">featherfluffllc@gmail.com</a></em></p>
+<p><em>Effective date: October 8, 2026</em> <em>Developer: Toussaint Campbell ("we", "us") · Contact: <a href="mailto:featherfluffllc@gmail.com">featherfluffllc@gmail.com</a></em></p>
 <h2 id="the-short-version">The short version</h2>
 <ul>
 <li><strong>No accounts, no ads, no analytics, no tracking.</strong> Ambient Wall has no sign-up and includes no advertising, analytics or tracking SDKs. We don't sell or share your data with data brokers, and we don't ask to track you across other apps.</li>
 <li><strong>We don't run a database of your data.</strong> Your layouts and settings sync through <strong>your own private iCloud database</strong> (Apple CloudKit). We, the developer, can't read it.</li>
 <li><strong>Your iPhone mic is never recorded.</strong> If you turn on Room Sound, the iPhone turns sound into a few loudness numbers while the app is open and sends only those numbers to your Apple TV on your home Wi-Fi. Audio is never recorded, stored or uploaded.</li>
-<li><strong>Health data stays on your home network.</strong> Activity rings and steps go from your iPhone straight to your paired Apple TV over your local Wi-Fi, encrypted. They never go to iCloud or to us.</li>
 <li><strong>Location is approximate and optional.</strong> If you allow it, the app reads your location once and rounds it to about 1 km to suggest nearby transit stops.</li>
 </ul>
 <h2 id="what-ambient-wall-uses-and-where-it-goes">What Ambient Wall uses, and where it goes</h2>
@@ -61,12 +60,6 @@
 <td>Turned into loudness and pitch-band numbers <strong>on the iPhone</strong>. Only those numbers go to your paired Apple TV over your local network. <strong>Audio is never recorded, stored or sent anywhere</strong></td>
 <td>No</td>
 </tr>
-<tr class="even">
-<td><strong>Activity</strong> (optional, Apple Health)</td>
-<td>Today's Activity rings and step count, <strong>read-only</strong></td>
-<td>iPhone → your paired Apple TV over your <strong>local Wi-Fi</strong>, encrypted. <strong>Never iCloud, never our servers.</strong> Never used for advertising or sold</td>
-<td>No</td>
-</tr>
 <tr class="odd">
 <td><strong>Calendar</strong> (optional)</td>
 <td>Upcoming event times; event <strong>titles only if you turn titles on</strong></td>
@@ -99,16 +92,17 @@
 </tr>
 <tr class="even">
 <td><strong>Purchases</strong></td>
-<td>Your in-app purchase or subscription</td>
+<td>Your one-time in-app purchase</td>
 <td>Handled entirely by Apple. We get no payment details</td>
 <td>Apple sends us standard, non-identifying sales reports</td>
 </tr>
+<tr><td><strong>Guest Wi-Fi</strong> (optional)</td><td>The guest network name, password, and network options you enter</td><td>The password is kept in device Keychain and synced in an encrypted field of your private iCloud database. Your TV displays a joining QR code only when you enable it. Anyone who can see or scan the code can join that network; use a guest network and hide the code when not needed.</td><td>No. We cannot read your private iCloud database or password.</td></tr>
 </tbody>
 </table>
 <h2 id="services-that-answer-the-apps-requests">Services that answer the app's requests</h2>
 <p>To show live information, your Apple TV or iPhone contacts these services directly. Like any website, they receive your device's <strong>IP address</strong> and the request itself, for example which feed or which map area. The app sends <strong>no name, email, advertising ID or account ID</strong> to them. Their own privacy policies apply.</p>
 <ul>
-<li><strong>Apple:</strong> iCloud/CloudKit, WeatherKit, Maps, Music, HomeKit, HealthKit, StoreKit.</li>
+<li><strong>Apple:</strong> iCloud/CloudKit, WeatherKit, Maps, Music, HomeKit, StoreKit.</li>
 <li><strong>News feeds</strong> you choose in Headlines (each publisher's RSS/Atom feed).</li>
 <li><strong>Transit:</strong> MTA (subway feeds and Bus Time) and the Port Authority of NY &amp; NJ (PATH times).</li>
 <li><strong>NOAA / National Weather Service:</strong> radar images on the Map tile.</li>
@@ -119,18 +113,16 @@
 <li>No advertising or ad identifiers (no App Tracking Transparency prompt, because we don't track).</li>
 <li>No analytics, crash-reporting or marketing SDKs.</li>
 <li>No selling or renting of data, and no sharing with data brokers.</li>
-<li>No storing of your health data in iCloud, and no use of it for advertising.</li>
 </ul>
 <h2 id="your-choices">Your choices</h2>
 <ul>
-<li><strong>Permissions:</strong> Location, Microphone, Health, Calendar, Home, Apple Music and Local Network are each asked for only when you use the feature. You can turn any of them off in <strong>Settings › Privacy &amp; Security</strong> (or <strong>Settings › Health</strong> for Health data) at any time.</li>
+<li><strong>Permissions:</strong> Location, Microphone, Calendar, Home, Apple Music and Local Network are each asked for only when you use the feature. You can turn any of them off in <strong>Settings › Privacy &amp; Security</strong> at any time.</li>
 <li><strong>Delete your synced data:</strong> on the iPhone, open <strong>Settings › [your name] › iCloud › Manage Storage › Ambient Wall</strong> and delete its data. Deleting the app removes what's stored on that device.</li>
-<li><strong>Unpair a TV:</strong> remove it in the app's Activity / pairing settings.</li>
 </ul>
 <h2 id="children">Children</h2>
 <p>Ambient Wall is not directed at children under 13 and doesn't knowingly collect personal information from anyone.</p>
 <h2 id="security">Security</h2>
-<p>Sync uses Apple's encrypted iCloud. iPhone-to-TV traffic on your network (Activity, Room Sound numbers) is encrypted (TLS) and works only with devices you've paired.</p>
+<p>Sync uses Apple's encrypted iCloud. iPhone-to-TV traffic on your network (Room Sound numbers) is encrypted (TLS) and works only with devices you've paired.</p>
 <h2 id="changes">Changes</h2>
 <p>If this policy changes, we'll update the effective date above, and we'll describe meaningful changes in the app's release notes.</p>
 <h2 id="contact">Contact</h2>
